@@ -107,6 +107,14 @@ header{
 }
 .img-small{
   width: 100%;
+  height: 150px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 5px;
+}
+.img-1{
+  background-image: url(../img/img-1.jpg);
 }
 .middle{
   width: 50%;
@@ -114,6 +122,14 @@ header{
 }
 .text-main-2{
   font-size: 13px;
+}
+.layover-2{
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 0.2;
+  z-index: 1;
+  border-radius: 5px;
 }
 footer{
   width: 100%;
