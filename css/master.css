@@ -1,0 +1,50 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.container{
+  margin: 0 15%;
+}
+header{
+ background-color: pink;
+ width: 100%;
+ height: 10vh;
+}
+.yellow-section{
+  width: 100%;
+  height: 35vh;
+  background-color: yellow;
+  margin: 1.8% 0;
+}
+.blue-section{
+  width: 100%;
+  height: 44vh;
+  background-color: lightblue;
+  z-index: 1;
+}
+.title{
+  width: 100%;
+  height: 7vh;
+  background-color: blue;
+  z-index: 10;
+  margin-bottom: 1.8%;
+}
+.float{
+  height: 33vh;
+  background-color: blue;
+  float: left;
+}
+.small{
+  width: 23.5%;
+}
+.middle{
+  width: 50%;
+  margin: 0 1.5%;
+}
+footer{
+  width: 100%;
+  height: 5vh;
+  background-color: purple;
+  margin-top: 0.5%;
+}
