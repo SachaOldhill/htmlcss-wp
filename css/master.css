@@ -2,6 +2,8 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
 }
 .container{
   margin: 0 15%;
@@ -10,24 +12,74 @@ header{
  background-color: pink;
  width: 100%;
  height: 10vh;
+ padding-top:1%;
 }
+.logo-container{
+  width: 17%;
+  height: 4.7vh;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url(../img/logo.png);
+  margin-left: 1%;
+  border-right: 1px solid lightgrey;
+}
+.nav{
+  margin-top: 2%;
+}
+.navigation{
+  font-size: 85%;
+}
+.navbar{
+  color: grey;
+  margin-left: 5%;;
+}
+.list{
+  display: inline-block;
+  font-size: 85%;
+  margin-left: 1%;
+}
+.navigation :first-child{
+  margin-left: 0;
+}
+
 .yellow-section{
   width: 100%;
   height: 35vh;
-  background-color: yellow;
   margin: 1.8% 0;
+  background-image: url(../img/banner.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 2%;
+  position: relative;
+}
+.layover{
+  width: 100%;
+  height: 35vh;
+  background-color: black;
+  opacity: 0.2;
+  z-index: 99;
+  position: relative;
+  margin-top: 0;
+}
+.testo{
+  color: white;
+  position: absolute;
+  top: 28%;
+  left: 5%;
+}
+.small-text{
+  font-size: 10px;
 }
 .blue-section{
   width: 100%;
   height: 44vh;
   background-color: lightblue;
-  z-index: 1;
 }
 .title{
   width: 100%;
   height: 7vh;
   background-color: blue;
-  z-index: 10;
   margin-bottom: 1.8%;
 }
 .float{
