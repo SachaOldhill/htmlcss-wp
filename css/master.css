@@ -11,12 +11,11 @@
 header{
  background-color: pink;
  width: 100%;
- height: 10vh;
+ min-height: 10vh;
  padding-top:1%;
 }
 .logo-container{
-  width: 17%;
-  height: 4.7vh;
+  height: 50px;
   background-size: contain;
   background-repeat: no-repeat;
   background-image: url(../img/logo.png);
@@ -24,7 +23,7 @@ header{
   border-right: 1px solid lightgrey;
 }
 .nav{
-  margin-top: 2%;
+  margin-top: 15px;
 }
 .navigation{
   font-size: 85%;
@@ -35,7 +34,7 @@ header{
 }
 .list{
   display: inline-block;
-  font-size: 85%;
+  font-size: 13px;
   margin-left: 1%;
 }
 .navigation :first-child{
@@ -44,55 +43,77 @@ header{
 
 .yellow-section{
   width: 100%;
-  height: 35vh;
+  min-height: calc(400px + 5vh);
   margin: 1.8% 0;
   background-image: url(../img/banner.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  border-radius: 2%;
+  border-radius: 5px;
   position: relative;
 }
 .layover{
   width: 100%;
-  height: 35vh;
+  height: 100%;
   background-color: black;
   opacity: 0.2;
-  z-index: 99;
-  position: relative;
+  z-index: 1;
   margin-top: 0;
+  position: absolute;
+  border-radius: 5px;
+  top:0;
+}
+.text{
+  position: absolute;
+  top: 65%;
+  left: 5%;
+  z-index: 10;
 }
 .testo{
   color: white;
-  position: absolute;
-  top: 28%;
-  left: 5%;
+  font-size: 18px;
 }
 .small-text{
   font-size: 10px;
 }
 .blue-section{
   width: 100%;
-  height: 44vh;
+  min-height: calc(450px + 5vh);
   background-color: lightblue;
+}
+.content{
+
 }
 .title{
   width: 100%;
-  height: 7vh;
+  min-height: 7vh;
   background-color: blue;
   margin-bottom: 1.8%;
 }
+.lead{
+  font-weight: bold;
+  font-size: 20px;
+}
+.txt{
+  font-size: 10px;
+  color: lightgrey;
+}
 .float{
-  height: 33vh;
   background-color: blue;
   float: left;
 }
 .small{
   width: 23.5%;
 }
+.img-small{
+  width: 100%;
+}
 .middle{
   width: 50%;
   margin: 0 1.5%;
+}
+.text-main-2{
+  font-size: 13px;
 }
 footer{
   width: 100%;
